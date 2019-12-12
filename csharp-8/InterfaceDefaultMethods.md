@@ -287,3 +287,8 @@ Creo que es una nueva funcionalidad que abre la puerta a nuevas formas de diseñ
 La imposibilidad de utiliar `var` o la clase al declarar la variable y utilizar los métodos definidos en la intefaz hace que sea engorroso tener que castearlo cada vez, más allá que lleva a un overhead de tener que conocer mucho más en profundidad todas las clases ya que no el IDE no te auto-completa con esos métodos si no casteas a la interfaz correcta (ni hablar si tenes mas de una interfaz).
 
 Por lo pronto, creo que no es una funcionalidad que la utilice mucho en un proyecto de producción. ¿Qué piensan ustedes?
+
+
+Ufff se hizo un poco más largo de lo planificado, pero una cosa llevo a la otra 😱 
+
+Si llegaste hasta acá. Vamos por 🍻🍔🍦
