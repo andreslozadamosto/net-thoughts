@@ -8,7 +8,7 @@ Esta posibilidad nos brinda posibilidades totalmente nuevas como la de pensar en
 
 ## Implementación
 
-### Implementación básica
+### 1. Implementación básica
 
 ```csharp
 public interface IMyClassA
@@ -29,7 +29,7 @@ Notese que debemos tipificar el tipo de `myClass` a la interface porque si utili
 
 Realmente no hay mucha diferencia con respecto a lo que podemos hacer con una clase abstracta hasta este momento no? 🙄
 
-### Extendiendo la interfaz y sobre-escribiendo el Default Method
+### 2. Extendiendo la interfaz y sobre-escribiendo el Default Method
 
 ¿Podemos extender la interfaz si sobre escribir el metodo default que creamos en `IMyClassA`? Totalmente SI! 🙌
 
@@ -59,7 +59,7 @@ public interface IMyClassEOverride : IMyClassE
 }
 ```
 
-### Implementando una interfaz con Default Methods y otra sin Default Methods
+### 3. Implementando una interfaz con Default Methods y otra sin Default Methods
 
 Puede pasar que tengamos una clase que implemente 2 interfaces que definen el mismo metodo `Works()` pero que una la implemente con Default Methods y la otra no... ¿Qué pasa en estos casos? ¿Reconoce que el método ya esta implementado o no?
 
@@ -90,7 +90,7 @@ myClassWithMutiInterfacesWithNoDefaultC.Works();
 
 Pues no... nos solicita que implementemos el método y además, sea como sea que lo utilicemos, siempre ejecuta la versión del método sobreescrito.
 
-### ¿Que podemos hacer con propiedades?
+### 4. ¿Que podemos hacer con propiedades?
 
 Lamentablemente no mucho. No esta permitido tener un "estado" en la interfaz por lo que solo permite definir un valor por default al `getter/setter` y luego tocará sobre-escribirlo
 
