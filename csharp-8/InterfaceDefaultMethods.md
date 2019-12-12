@@ -1,8 +1,8 @@
 # Lo nuevo en C# 8.0 - Default Interface Methods
 
-Con la llegada de `C# 8.0` nuestras inferfaces permiten incluir implementaciones genéricas (defaults) para los métodos que declaran para poder ser compartido entre las diferentes implementaciones de la interfaz tal como pasa en las clases abstractas.
+Con la llegada de `C# 8.0` nuestras inferfaces permiten incluir implementaciones genéricas para los métodos que declaran y poder ser compartidos entre las diferentes clases de implementación de la interfaz tal como se puede realizar con las clases abstractas.
 
-Como vamos a ver, esta posibilidad nos brinda posibilidades totalmente nuevas como la posibilidad de pensar en `Mixins` pero también dudas sobre cuando utilizarlo y algún que otro dolor de cabeza al permitir una pseudo-multiherencia y apareciendo el `problema del diamante`.
+Esta posibilidad nos brinda posibilidades totalmente nuevas como la de pensar en utilizar `Mixins`; pero también dudas sobre cuando utilizarlo y algún que otro dolor de cabeza al permitir una pseudo-multiherencia y apareciendo el `problema del diamante`.
 
 > **Info:** No es algo novedozo, Java ya lo acepta desde la version 8 [link](https://www.geeksforgeeks.org/default-methods-java/)
 
