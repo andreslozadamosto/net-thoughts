@@ -108,7 +108,7 @@ public interface IMyClassD
 
 En el ejemplo el `set` lo hice privado, pero unicamente para señalar que de esta forma se puede crear un valor constante o un valor default para todas las implementaciones
 
-Referencias
+**Referencias:**
 
 * [Excelente y completísima explicación](https://www.infoq.com/articles/default-interface-methods-cs8/)
 * [Microsoft C# 8 news](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8#default-interface-methods)
@@ -158,7 +158,7 @@ Como podemos ver, C# 8.0 no toma mucha desición y deja al programador decidir. 
 
 Realmente, en este momento, no se me ocurre algun caso real que pase esto... aunque aún es muy nuevo y ya llegarán los dolores de cabeza 😈😅
 
-Referencias a herencia múltiple:
+**Referencias:**
 
 * [Wikipedia](https://es.wikipedia.org/wiki/Herencia_m%C3%BAltiple)
 * [Pdf](https://ingenieria.udistrital.edu.co/pluginfile.php/39191/mod_resource/content/1/Herencia%20m%C3%BAtiple.pdf)
@@ -272,7 +272,7 @@ CrazyLight crazyLight = new CrazyLight();
 
 Por lo que veo, la posibilidad del Mixin está pero creo que entro como de costado... como consecuencia de las Default Methods y el equipo que se encarga del update del lenguaje creo que tiene muchas posibilidades para desarrollar Mixins de una manera mucho mas amigable hacia el programador como por ejemplo que no se tenga que castear a cada interfaz para utilziar cada método.
 
-Referencias
+**Referencias:**
 
 * [Wikipedia](https://es.wikipedia.org/wiki/Mixin)
 * [Microsoft](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/mixins-with-default-interface-methods)
