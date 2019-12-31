@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DefaultInterfaceMethods.Mixins
 {
-    interface ILight
+    public interface ILight
     {
         protected enum STATUS
         {
