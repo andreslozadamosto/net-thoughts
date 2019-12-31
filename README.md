@@ -15,6 +15,12 @@ Veamos que nos trae de nuevo C# 8
 * Index & ranges
 * Null-coalescing assignment
 
+## ML.Net
+
+Primeros pasos con Machine Learning en el mundo de dot net core
+
+* [Machine Leanning 101](./ml.net/README.md)
+
 ## GRPC
 
 Problemos GRPC con .Net Core 3.1
