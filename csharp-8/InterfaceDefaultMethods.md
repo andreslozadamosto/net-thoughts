@@ -1,14 +1,14 @@
 # Lo nuevo en C# 8.0 - Default Interface Methods
 
-Con la llegada de `C# 8.0` nuestras inferfaces permiten incluir implementaciones genéricas (defaults) para los métodos que declaran para poder ser compartido entre las diferentes implementaciones de la interfaz tal como pasa en las clases abstractas.
+Con la llegada de `C# 8.0` nuestras inferfaces permiten incluir implementaciones genéricas para los métodos que declaran y poder ser compartidos entre las diferentes clases de implementación de la interfaz tal como se puede realizar con las clases abstractas.
 
-Como vamos a ver, esta posibilidad nos brinda posibilidades totalmente nuevas como la posibilidad de pensar en `Mixins` pero también dudas sobre cuando utilizarlo y algún que otro dolor de cabeza al permitir una pseudo-multiherencia y apareciendo el `problema del diamante`.
+Esta posibilidad nos brinda posibilidades totalmente nuevas como la de pensar en utilizar `Mixins`; pero también dudas sobre cuando utilizarlo y algún que otro dolor de cabeza al permitir una pseudo-multiherencia y apareciendo el `problema del diamante`.
 
 > **Info:** No es algo novedozo, Java ya lo acepta desde la version 8 [link](https://www.geeksforgeeks.org/default-methods-java/)
 
 ## Implementación
 
-### Implementación básica
+### 1. Implementación básica
 
 ```csharp
 public interface IMyClassA
@@ -29,7 +29,7 @@ Notese que debemos tipificar el tipo de `myClass` a la interface porque si utili
 
 Realmente no hay mucha diferencia con respecto a lo que podemos hacer con una clase abstracta hasta este momento no? 🙄
 
-### Extendiendo la interfaz y sobre-escribiendo el Default Method
+### 2. Extendiendo la interfaz y sobre-escribiendo el Default Method
 
 ¿Podemos extender la interfaz si sobre escribir el metodo default que creamos en `IMyClassA`? Totalmente SI! 🙌
 
@@ -59,7 +59,7 @@ public interface IMyClassEOverride : IMyClassE
 }
 ```
 
-### Implementando una interfaz con Default Methods y otra sin Default Methods
+### 3. Implementando una interfaz con Default Methods y otra sin Default Methods
 
 Puede pasar que tengamos una clase que implemente 2 interfaces que definen el mismo metodo `Works()` pero que una la implemente con Default Methods y la otra no... ¿Qué pasa en estos casos? ¿Reconoce que el método ya esta implementado o no?
 
@@ -90,7 +90,7 @@ myClassWithMutiInterfacesWithNoDefaultC.Works();
 
 Pues no... nos solicita que implementemos el método y además, sea como sea que lo utilicemos, siempre ejecuta la versión del método sobreescrito.
 
-### ¿Que podemos hacer con propiedades?
+### 4. ¿Que podemos hacer con propiedades?
 
 Lamentablemente no mucho. No esta permitido tener un "estado" en la interfaz por lo que solo permite definir un valor por default al `getter/setter` y luego tocará sobre-escribirlo
 
@@ -108,7 +108,7 @@ public interface IMyClassD
 
 En el ejemplo el `set` lo hice privado, pero unicamente para señalar que de esta forma se puede crear un valor constante o un valor default para todas las implementaciones
 
-Referencias
+**Referencias:**
 
 * [Excelente y completísima explicación](https://www.infoq.com/articles/default-interface-methods-cs8/)
 * [Microsoft C# 8 news](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8#default-interface-methods)
@@ -158,7 +158,7 @@ Como podemos ver, C# 8.0 no toma mucha desición y deja al programador decidir. 
 
 Realmente, en este momento, no se me ocurre algun caso real que pase esto... aunque aún es muy nuevo y ya llegarán los dolores de cabeza 😈😅
 
-Referencias a herencia múltiple:
+**Referencias:**
 
 * [Wikipedia](https://es.wikipedia.org/wiki/Herencia_m%C3%BAltiple)
 * [Pdf](https://ingenieria.udistrital.edu.co/pluginfile.php/39191/mod_resource/content/1/Herencia%20m%C3%BAtiple.pdf)
@@ -272,7 +272,7 @@ CrazyLight crazyLight = new CrazyLight();
 
 Por lo que veo, la posibilidad del Mixin está pero creo que entro como de costado... como consecuencia de las Default Methods y el equipo que se encarga del update del lenguaje creo que tiene muchas posibilidades para desarrollar Mixins de una manera mucho mas amigable hacia el programador como por ejemplo que no se tenga que castear a cada interfaz para utilziar cada método.
 
-Referencias
+**Referencias:**
 
 * [Wikipedia](https://es.wikipedia.org/wiki/Mixin)
 * [Microsoft](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/mixins-with-default-interface-methods)
@@ -287,3 +287,8 @@ Creo que es una nueva funcionalidad que abre la puerta a nuevas formas de diseñ
 La imposibilidad de utiliar `var` o la clase al declarar la variable y utilizar los métodos definidos en la intefaz hace que sea engorroso tener que castearlo cada vez, más allá que lleva a un overhead de tener que conocer mucho más en profundidad todas las clases ya que no el IDE no te auto-completa con esos métodos si no casteas a la interfaz correcta (ni hablar si tenes mas de una interfaz).
 
 Por lo pronto, creo que no es una funcionalidad que la utilice mucho en un proyecto de producción. ¿Qué piensan ustedes?
+
+
+Ufff se hizo un poco más largo de lo planificado, pero una cosa llevo a la otra 😱 
+
+Si llegaste hasta acá. Vamos por 🍻🍔🍦
