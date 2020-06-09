@@ -21,6 +21,11 @@ Primeros pasos con Machine Learning en el mundo de dot net core
 
 * [Machine Leanning 101](./ml.net/README.md)
 
+## Message Brokers
+
+* Ejemplo básico de RabbitMQ
+
+
 ## GRPC
 
 Problemos GRPC con .Net Core 3.1
