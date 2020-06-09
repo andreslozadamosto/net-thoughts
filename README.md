@@ -7,7 +7,7 @@ Este espacio en GitHub voy a estar compartiendo experimentos en tencnologías `.
 Veamos que nos trae de nuevo C# 8
 
 * [Default interface methods](./csharp-8/InterfaceDefaultMethods.md)
-* Pattern matching enhancements
+* [Pattern matching enhancements](./csharp-8/InterfaceDefaultMethods.md)
 * Using declarations
 * Static local functions
 * Nullable reference types
@@ -23,8 +23,11 @@ Primeros pasos con Machine Learning en el mundo de dot net core
 
 ## Message Brokers
 
-* Ejemplo básico de RabbitMQ
+* [Ejemplo básico de RabbitMQ](./mesage-brokers/rabbit-mq/README.md)
 
+## Kafka
+
+* [Kafka](./kafka/Readme.md)
 
 ## GRPC
 

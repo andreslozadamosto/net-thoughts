@@ -1,7 +1,7 @@
 # Nuevas características de C# 8.0
 
-* [Default interface methods](./csharp-8/InterfaceDefaultMethods.md)
-* Pattern matching enhancements
+* [Default interface methods](./InterfaceDefaultMethods.md)
+* [Pattern matching enhancements](./PatternMatching.md)
 * Using declarations
 * Static local functions
 * Nullable reference types
