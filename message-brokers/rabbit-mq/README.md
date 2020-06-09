@@ -95,13 +95,5 @@ __Empresariales__ (o mejor dicho con una empresa grande por detras, pero que muc
 * Red Hat AMQ
 
 ## ¿Qué es RabbitMQ?
-RabbitMQ es un 
 
-https://dzone.com/articles/introduction-to-message-brokers-part-1-apache-kafk
-https://tanzu.vmware.com/content/blog/understanding-when-to-use-rabbitmq-or-apache-kafka
-https://www.rabbitmq.com/
-https://dzone.com/articles/exploring-message-brokers
-https://otonomo.io/blog/redis-kafka-or-rabbitmq-which-microservices-message-broker-to-choose/
-http://pulsar.apache.org/
-http://www.flogo.io/
-https://docs.celeryproject.org/en/latest/getting-started/brokers/rabbitmq.html
+Proximamente

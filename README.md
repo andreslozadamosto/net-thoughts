@@ -23,7 +23,7 @@ Primeros pasos con Machine Learning en el mundo de dot net core
 
 ## Message Brokers
 
-* [Ejemplo básico de RabbitMQ](./mesage-brokers/rabbit-mq/README.md)
+* [Ejemplo básico de RabbitMQ](./message-brokers/rabbit-mq/README.md)
 
 ## Kafka
 
