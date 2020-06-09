@@ -149,7 +149,7 @@ static State ChangeState(State current, Transition transition, bool hasKey) =>
 ```
 
 ### 7. Positional Matching
-Este patrón utliza el `deconstruct` [pattern](https://docs.microsoft.com/en-us/dotnet/csharp/deconstruct) para hacer la separacion de los datos.
+Este patrón utliza `deconstruct` [pattern](https://docs.microsoft.com/en-us/dotnet/csharp/deconstruct) para hacer la separacion de los datos.
 
 ```cssharp
 class Point
