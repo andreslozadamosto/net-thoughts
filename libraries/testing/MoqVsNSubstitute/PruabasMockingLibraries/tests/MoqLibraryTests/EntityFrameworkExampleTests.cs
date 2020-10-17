@@ -1,0 +1,6 @@
+﻿namespace MoqLibraryTests
+{
+    class EntityFrameworkExampleTests
+    {
+    }
+}

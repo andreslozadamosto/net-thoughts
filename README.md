@@ -2,9 +2,9 @@
 
 Este espacio en GitHub voy a estar compartiendo experimentos en tencnologías `.Net Core` y asociadas, buenas practicas, `Azure`, etc.
 
-## C# 8
+## C# 
 
-Veamos que nos trae de nuevo C# 8
+Funcionalidades de C#
 
 * [Default interface methods](./csharp-8/InterfaceDefaultMethods.md)
 * [Pattern matching enhancements](./csharp-8/InterfaceDefaultMethods.md)
@@ -14,6 +14,11 @@ Veamos que nos trae de nuevo C# 8
 * Async streams
 * Index & ranges
 * Null-coalescing assignment
+
+## Librerías
+
+### Testing
+* [Moq vs NSubstitute](/libraries/testing/MoqVsNSubstitute/README.md)
 
 ## ML.Net
 
