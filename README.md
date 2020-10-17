@@ -18,7 +18,7 @@ Funcionalidades de C#
 ## Librerías
 
 ### Testing
-* [Moq vs NSubstitute](/libraries/testing/MoqVsNSubstitute/README.md)
+* [Moq vs NSubstitute](/libraries/testing/MoqVsNSubstitute/)
 
 ## ML.Net
 
