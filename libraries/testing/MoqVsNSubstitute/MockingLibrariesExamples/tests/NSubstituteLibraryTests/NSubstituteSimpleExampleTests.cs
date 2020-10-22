@@ -29,7 +29,7 @@ namespace NSubstituteLibraryTests
                 .With(x => x.Address, Fixture.Create<Address>())
                 .CreateMany(2).ToList<IUserModel>());
 
-            // Hierarchy properties
+            // Hierarchy/recursive properties
             var street = Fixture.Create<string>();
             var mockUser = Substitute.For<IUserModel>();
             mockUser.Address.Street.Returns(street);

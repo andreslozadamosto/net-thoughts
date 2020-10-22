@@ -29,7 +29,7 @@ namespace MoqLibraryTests
                 .With(x => x.Address, Fixture.Create<Address>())
                 .CreateMany(2).ToList<IUserModel>());
 
-            // Hierarchy properties
+            // Hierarchy/recursive properties
             var street = Fixture.Create<string>();
             var mockUser = new Mock<IUserModel>();
             mockUser.Setup(foo => foo.Address.Street).Returns(street);
