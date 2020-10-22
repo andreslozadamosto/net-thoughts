@@ -23,7 +23,7 @@ namespace MoqLibraryTests
         {
             var id = 32;
             var username = "Andres";
-            var street = "Streeettt";
+            var street = "14th Street NW";
 
 
             // Simple & hierarchy/recursive properties
