@@ -1,14 +1,14 @@
 version: "3.8"
 services:
   web:
+    environment: 
+      - JUPYTER_ENABLE_LAB=yes
     build: .
     volumes:
       - type: bind
         source: ./notebooks
-        target: /opt/notebooks
+        target: /home/jovyan/work
     ports:
         - 8888:8888
     tty: true
-    container_name: andres
-    command:
-        - /bin/bash
+    container_name: jupiterlab
