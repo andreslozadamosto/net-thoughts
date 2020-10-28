@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  web:
+    build: .
+    volumes:
+      - type: bind
+        source: ./notebooks
+        target: /opt/notebooks
+    ports:
+        - 8888:8888
+    tty: true
+    container_name: andres
+    command:
+        - /bin/bash

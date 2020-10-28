@@ -8,6 +8,7 @@
 La verdad que no es imprescindible pero si hay que tener ganas y voluntad para aprender. Por ejemplo, sabes que es un [Hiperplano](https://es.wikipedia.org/wiki/Hiperplano)? o talvez conozcas que hay mas de la forma clásica que nos enseñan en la escuela en medir dos puntos en el plano que es la fórmula de la distancia euclidea (d(x, y) = √(y1 - x1)² + (y2 - y2)²), sino que existen otras fórmulas como la [Distancia Manhattan o Taxicab](https://en.wikipedia.org/wiki/Taxicab_geometry) o la [Distancia de Chebyshov](https://es.wikipedia.org/wiki/Distancia_de_Chebyshov).
 
 ## Machine Learning
+[[En desarrollo]]
 
 El Machine Learning nos permite "enseñar cosas" a una pc (o mejor dicho a un sistema informático) y que luego nos pueda "recomendar o sugerir" una solución o consecuencia a partir de una nueva situacion en base a los ejemplos enseñados previamente.
 
@@ -37,21 +38,22 @@ Por otro lado, porque un sistema pueda reconocer sillas y perros, no significa q
 
 ### Diferencia con la Inteligencia Artificial
 
-TBD
+[[En desarrollo]]
 
 ### Diferencia con el Deep Learning 
 
-TBD
+[[En desarrollo]]
 
 ## Diferencia con Data Mining
 
-TBD
+[[En desarrollo]]
 
 ## Categorización
 
-TBD
+[[En desarrollo]]
 
 ## Proceso
+[[En desarrollo]]
 
 Para que un conjunto de datos/información/etc llege a ser modelado por el sistema de Machine Learning debe pasar por un proceso de estandarización y entrenamiento.
 
@@ -70,13 +72,47 @@ Un ejemplo mas gráfico y que personalmente me gusta como lo representa y con el
 |:--:|
 |*source [link](https://strongminds.dk/artikler/how-to-preprocess-data-for-machine-learning-in-net-and-python/)*|
 
+# Herramientas
+
+Por lo general cuando se habla de Machine Learning se habla de Python, en este caso vamos voy a hacer las pruebas tanto en c# usando _**ML.Net**_ como en python. La idea es aprender _Machine Learning_ independientemente del lenguaje, pero utilizando herramientas/librerías que mas se utilizan en el mercado, python en este caso y por gusto propio y porque veo un gran potencial, la librería de _Microsoft_.
+
+Necesitamos algo instalado? Bueno si. Necesitamos python y algo para graficar. Lo mas conocido y utilizado (hasta donde yo se) son las [Jupyter Notebooks](https://jupyter.org), el cual permite en un mismo documento, agregar código ejecutable, Markdown, plotear gráficos, etc.
+
+Para estos ejemplos, voy a utilizar [Anaconda](https://www.anaconda.com/), que vendría a ser una distribución de _Jupyter_ con un monton de añadidos.
+
+Podemos instarlar _Anaconda_ en nuestra PC, pero la verdad que prefieron mantener mi PC libre de software y poder re-instalar los entornos rápidamente en cualquier PC por lo que _Docker_ nos va a dar una mano. Perderemos la interfaz sencilla de instalar plugins de _Anaconda_, pero por el momento no sera un problema.
+
+En este mismo repositorio pueden encontrar el `docker-compose` para dejar _Anaconda_ funcionando con Python y Net Core, simplemente tipeando
+
+```bash
+docker-compose up -build
+```
+
+Lo único malo es que la imagen necesita alrededor de 2GB y tarda un rato en realizar todos los updates. Si quieren agilizar la instalación pueden comentar las lineas donde se actualiza el conda.
+
+
 # ML.Net
+
+[[En desarrollo]]
 
 ML.Net nos permite agregar capacidad de Machine Learning a nuestras aplicaciones .Net (Net Core y Net Framework) utilizando un modelo previamente entrenado.
 
 Una forma de hacer esto, es tener una "aplicación de entrenamiento" que genere el modelo dejándolo en una ubicación que la aplicación cliente (quien va a utilizar el modelo) lo pueda acceder y cargar.
 
+## Ejemplo básico
+[[En desarrollo]]
 
+## Regresión líneal
+[[En desarrollo]]
+
+### La matemática de las regreciones
+[[En desarrollo]]
+
+### Ejemplo ML.Net
+[[En desarrollo]]
+
+### Ejemplo Python
+[[En desarrollo]]
 
 # Literatura y links
 
